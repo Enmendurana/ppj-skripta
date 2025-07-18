@@ -302,8 +302,8 @@ Podobno je pomen boolovega izraza `b` preslikava `⟦ b ⟧ : Env → {⊥, ⊤}
 ⟦ b₁ and b₂ ⟧(η) = ⟦ b₁ ⟧(η) ∧ ⟦ b₂ ⟧(η)
 ⟦ b₁ or b₂ ⟧(η) = ⟦ b₁ ⟧(η) ∨ ⟦ b₂ ⟧(η)
 ⟦ not b ⟧(η) = ¬ ⟦b⟧(η)
-⟦ e₁ = e₂ ⟧(η) = (⟦ e₁ ⟧(η) = ⟦ e₂ ⟧(η)
-⟦ e₁ < e₂ ⟧(η) = (⟦ e₁ ⟧(η) < ⟦ e₂ ⟧(η)
+⟦ e₁ = e₂ ⟧(η) = (⟦ e₁ ⟧(η) = ⟦ e₂ ⟧(η))
+⟦ e₁ < e₂ ⟧(η) = (⟦ e₁ ⟧(η) < ⟦ e₂ ⟧(η))
 ```
 
 Ali razumete zadnji dve vrstici definicije?
